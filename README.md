@@ -1,4 +1,4 @@
-## JavaScript Problem Solbing
+## JavaScript Problem Solving
 
 **#1: Print in Console from 1 to 10 numbers?**
 
