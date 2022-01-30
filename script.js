@@ -138,3 +138,6 @@ console.log(checkLeapYear(2025));
 const obj = {
   color: "red",
 };
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
