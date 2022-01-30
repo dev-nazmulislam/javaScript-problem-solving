@@ -1,6 +1,6 @@
 ## JavaScript Problem Solbing
 
-**#1: Print in Console numbers from 1 to 10**
+**#1: Print in Console from 1 to 10 numbers?**
 
 ```
 
@@ -10,7 +10,7 @@ for (let i = 1; i <= 10; i++) {
 
 ```
 
-**#2: Print in Console the odd numbers less than 100**
+**#2: Print in Console the odd numbers less than 100?**
 
 ```
 
@@ -20,7 +20,7 @@ for (let i = 1; i <= 100; i += 2) {
 
 ```
 
-**#3: Print in Console the multiplication table with 7**
+**#3: Print in Console the multiplication table with 7?**
 
 ```
 
@@ -30,7 +30,7 @@ for (let i = 1; i <= 10; i++) {
 
 ```
 
-**#4: Calculate the sum of numbers from 1 to 10**
+**#4: Calculate the sum of numbers from 1 to 10?**
 
 ```
 
@@ -42,7 +42,7 @@ console.log(sum);
 
 ```
 
-**#5: Calculate 10!**
+**#5: Calculate 10!?**
 
 ```
 
@@ -54,7 +54,7 @@ console.log(fabCalculate);
 
 ```
 
-**#6: Calculate the sum of odd numbers greater than 10 and less than 30**
+**#6: Calculate the sum of odd numbers greater than 10 and less than 30?**
 
 ```
 
@@ -66,7 +66,7 @@ console.log(sumOdd);
 
 ```
 
-**#7: Calculate the sum of numbers in an array of numbers**
+**#7: Calculate the sum of numbers in an array of numbers?**
 
 ```
 
@@ -79,7 +79,7 @@ console.log(arrTotal);
 
 ```
 
-**#8: Calculate the average of the numbers in an array of numbers**
+**#8: Calculate the average of the numbers in an array of numbers?**
 
 ```
 
@@ -94,7 +94,7 @@ console.log(arrAverage(arr));
 
 ```
 
-**#9: Find the maximum number in an array of numbers**
+**#9: Find the maximum number in an array of numbers?**
 
 ```
 
@@ -104,7 +104,7 @@ console.log(findMaxNumber(arr));
 
 ```
 
-**#10: Create a function that receives an array of numbers and returns an array containing only the positive numbers**
+**#10: Create a function that receives an array of numbers and returns an array containing only the positive numbers?**
 
 ```
 
@@ -121,7 +121,7 @@ console.log(getPositiveNumber(arr));
 
 ```
 
-**#11: Print in Console all the multiplication tables with numbers from 1 to 10**
+**#11: Print in Console all the multiplication tables with numbers from 1 to 10?**
 
 ```
 
@@ -136,7 +136,7 @@ printMultiplicationTable(10);
 
 ```
 
-**#12: Create a function that will convert from Celsius to Fahrenheit**
+**#12: Create a function that will convert from Celsius to Fahrenheit?**
 
 ```
 
@@ -145,7 +145,7 @@ console.log(celsiustoFahrenheit(50));
 
 ```
 
-**#13: Create a function that will convert from Fahrenheit to Celsius**
+**#13: Create a function that will convert from Fahrenheit to Celsius?**
 
 ```
 
@@ -154,7 +154,7 @@ console.log(fahrenheittoCelsius(50));
 
 ```
 
-**#14: Create a function that will find the nth Fibonacci number using recursion**
+**#14: Create a function that will find the nth Fibonacci number using recursion?**
 
 ```
 
@@ -169,7 +169,7 @@ console.log(findFibonacci(20));
 
 ```
 
-**#15: Create a function that will return a Boolean specifying if a number is prime**
+**#15: Create a function that will return a Boolean specifying if a number is prime?**
 
 ```
 
@@ -184,7 +184,7 @@ console.log(isPrime(6));
 
 ```
 
-**#16: Check Leap Year Using if...else**
+**#16: Check Leap Year Using if...else?**
 
 ```
 
