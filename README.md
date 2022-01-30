@@ -1,6 +1,6 @@
 ## JavaScript Problem Solbing
 
-**1: Print in Console numbers from 1 to 10**
+**#1: Print in Console numbers from 1 to 10**
 
 ```
 
