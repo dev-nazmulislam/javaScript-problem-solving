@@ -119,16 +119,18 @@ function checkLeapYear(year) {
 }
 console.log(checkLeapYear(2025));
 
-// #00: Print in Console the first 10 Fibonacci numbers without recursion
-var f0 = 0;
-// console.log(f0);
-var f1 = 1;
-// console.log(f1);
+// #17: Create a function that accepts an array and returns the last item in the array?
+const arr = [50, 90, 80, 66, 85];
+const returnLastItem = (arr) => arr[arr.length - 1];
+console.log(returnLastItem(arr));
 
-for (var i = 2; i < 10; i++) {
-  var fi = f1 + f0;
-  // console.log(fi);
-
-  f0 = f1;
-  f1 = fi;
-}
+// #18: Calculate the sum of digits of a positive integer number?
+const sumOfDigits = (n) => {
+  const newArr = Array.from(String(n), Number);
+  let sumOfArr = 0;
+  for (let i = 0; i < newArr.length; i++) {
+    sumOfArr += newArr[i];
+  }
+  return sumOfArr;
+};
+console.log(sumOfDigits(45465));
