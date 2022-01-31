@@ -1,4 +1,4 @@
-// #1: Print in Console from 1 to 10 numbers?
+/* // #1: Print in Console from 1 to 10 numbers?
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
@@ -154,3 +154,13 @@ function isPrime(num) {
     }
   return num > 1;
 }
+ */
+// #20: Check Odd or Even Number with Arguments Objects
+function checkOddOrEven() {
+  for (let i = 0; i < arguments.length; i++) {
+    arguments[i] % 2 == 0
+      ? console.log(arguments[i] + " is Even Number")
+      : console.log(arguments[i] + " is Odd Number");
+  }
+}
+checkOddOrEven(11, 10, 20);

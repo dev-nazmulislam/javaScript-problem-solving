@@ -249,3 +249,18 @@ function isPrime(num) {
 }
 
 ```
+
+**#20: Check Odd or Even Number with Arguments Objects**
+
+```
+
+function checkOddOrEven() {
+  for (let i = 0; i < arguments.length; i++) {
+    arguments[i] % 2 == 0
+      ? console.log(arguments[i] + " is Even Number")
+      : console.log(arguments[i] + " is Odd Number");
+  }
+}
+checkOddOrEven(11, 10, 20);
+
+```
