@@ -134,3 +134,23 @@ const sumOfDigits = (n) => {
   return sumOfArr;
 };
 console.log(sumOfDigits(45465));
+
+// #19: Print in Console the first 50 prime numbers
+getPrime(50);
+function getPrime(nPrime) {
+  let prime = 1;
+  for (let i = 2; prime <= nPrime; i++) {
+    if (isPrime(i)) {
+      console.log(prime, " ", i);
+      prime++;
+    }
+  }
+}
+
+function isPrime(num) {
+  for (var i = 2; i < num; i++)
+    if (num % i === 0) {
+      return num < 1;
+    }
+  return num > 1;
+}
