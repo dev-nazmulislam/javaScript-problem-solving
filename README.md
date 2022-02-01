@@ -264,3 +264,27 @@ function checkOddOrEven() {
 checkOddOrEven(11, 10, 20);
 
 ```
+
+**#21: Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt**
+
+```
+
+console.log(getFirstNprimeNumber(5, 500));
+function getFirstNprimeNumber(nPrimes, startAt) {
+  const arr = [];
+  for (let i = startAt; arr.length < nPrimes; i++) {
+    if (isPrime(i)) {
+      arr.push(i);
+    }
+  }
+  return arr;
+}
+function isPrime(num) {
+  for (var i = 2; i < num; i++)
+    if (num % i === 0) {
+      return num < 1;
+    }
+  return num > 1;
+}
+
+```

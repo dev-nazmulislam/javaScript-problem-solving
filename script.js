@@ -1,4 +1,4 @@
-/* // #1: Print in Console from 1 to 10 numbers?
+// #1: Print in Console from 1 to 10 numbers?
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
@@ -154,7 +154,7 @@ function isPrime(num) {
     }
   return num > 1;
 }
- */
+
 // #20: Check Odd or Even Number with Arguments Objects
 function checkOddOrEven() {
   for (let i = 0; i < arguments.length; i++) {
@@ -164,3 +164,23 @@ function checkOddOrEven() {
   }
 }
 checkOddOrEven(11, 10, 20);
+
+// #21: Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt
+
+console.log(getFirstNprimeNumber(5, 500));
+function getFirstNprimeNumber(nPrimes, startAt) {
+  const arr = [];
+  for (let i = startAt; arr.length < nPrimes; i++) {
+    if (isPrime(i)) {
+      arr.push(i);
+    }
+  }
+  return arr;
+}
+function isPrime(num) {
+  for (var i = 2; i < num; i++)
+    if (num % i === 0) {
+      return num < 1;
+    }
+  return num > 1;
+}

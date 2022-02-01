@@ -17,7 +17,14 @@
 #17: Create a function that accepts an array and returns the last item in the array.
 #18: Calculate the sum of digits of a positive integer number
 #19: Print in Console the first 100 prime numbers
-#20: Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt"
+#20: Check Odd or Even Number with Arguments Objects
+#21: Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt"
+
+
+
+
+
+
 #21: Rotate an array to the left 1 position
 #22: Rotate an array to the right 1 position
 #23: Reverse an array
