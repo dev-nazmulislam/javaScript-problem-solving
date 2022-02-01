@@ -22,6 +22,8 @@
 #22: Rotate an array to the left 1 position
 #23: Reverse an array with createed function, don`t Change orginal array
 #24: Reverse an array with JavaScript Builtin Method
+#25: Reverse a string with createed function, don`t Change orginal string
+#26: Reverse a string with JavaScript Builtin Method
 
 
 

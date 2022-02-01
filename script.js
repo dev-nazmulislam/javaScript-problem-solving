@@ -209,9 +209,30 @@ function reverseArr(arr) {
   }
   return newArr;
 }
-*/
+
 
 // #24: Reverse an array with JavaScript Builtin Method
 const arr = [1, 2, 3];
 arr.reverse();
 console.log(arr);
+
+*/
+
+// #25: Reverse a string with createed function, don`t Change orginal string
+const str = "Md Nazmul Islam";
+
+const newStr = reverseString(str);
+console.log(newStr);
+
+function reverseString(str) {
+  let newStr = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    newStr += str[i];
+  }
+  return newStr;
+}
+
+// #26: Reverse a string with JavaScript Builtin Method
+const str = "Md Nazmul islam";
+const newStr = str.split("").reverse().join("");
+console.log(newStr);
