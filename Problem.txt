@@ -21,7 +21,7 @@
 #21: Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt"
 #22: Rotate an array to the left 1 position
 #23: Reverse an array with createed function, don`t Change orginal array
-#24: Reverse an array with JavaScript Buildin Method
+#24: Reverse an array with JavaScript Builtin Method
 
 
 

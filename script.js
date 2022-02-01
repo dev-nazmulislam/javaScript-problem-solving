@@ -194,7 +194,7 @@ function rotateLeft(arr) {
   arr.push(arrFirstElement);
 }
 console.log(arr);
- */
+ 
 
 // #23: Reverse an array with createed function, don`t Change orginal array
 const arr = [1, 2, 3];
@@ -209,5 +209,9 @@ function reverseArr(arr) {
   }
   return newArr;
 }
+*/
 
-// #24: Reverse an array with JavaScript Buildin Method
+// #24: Reverse an array with JavaScript Builtin Method
+const arr = [1, 2, 3];
+arr.reverse();
+console.log(arr);

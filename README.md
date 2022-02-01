@@ -323,3 +323,13 @@ return newArr;
 
 
 ```
+
+**// #24: Reverse an array with JavaScript Builtin Method**
+
+```
+
+const arr = [1, 2, 3];
+arr.reverse();
+console.log(arr);
+
+```
