@@ -308,8 +308,6 @@ console.log(arr);
 
 ```
 
-```
-
 const arr = [1, 2, 3];
 
 const newArr = reverseArr(arr);
@@ -323,12 +321,5 @@ newArr.push(arr[i]);
 return newArr;
 }
 
-```
-
-```
-
-Hi
-
-```
 
 ```
