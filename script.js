@@ -184,7 +184,7 @@ function isPrime(num) {
     }
   return num > 1;
 }
- */
+
 // #22: Rotate an array to the left 1 position
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
@@ -194,3 +194,20 @@ function rotateLeft(arr) {
   arr.push(arrFirstElement);
 }
 console.log(arr);
+ */
+
+// #23: Reverse an array with createed function, don`t Change orginal array
+const arr = [1, 2, 3];
+
+const newArr = reverseArr(arr);
+console.log(newArr);
+
+function reverseArr(arr) {
+  const newArr = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    newArr.push(arr[i]);
+  }
+  return newArr;
+}
+
+// #24: Reverse an array with JavaScript Buildin Method

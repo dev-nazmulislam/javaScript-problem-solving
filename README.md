@@ -303,3 +303,32 @@ function rotateLeft(arr) {
 console.log(arr);
 
 ```
+
+**#23: Reverse an array with createed function, don`t Change orginal array**
+
+```
+
+```
+
+const arr = [1, 2, 3];
+
+const newArr = reverseArr(arr);
+console.log(newArr);
+
+function reverseArr(arr) {
+const newArr = [];
+for (let i = arr.length - 1; i >= 0; i--) {
+newArr.push(arr[i]);
+}
+return newArr;
+}
+
+```
+
+```
+
+Hi
+
+```
+
+```
