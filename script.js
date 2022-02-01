@@ -1,4 +1,4 @@
-// #1: Print in Console from 1 to 10 numbers?
+/* // #1: Print in Console from 1 to 10 numbers?
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
@@ -184,3 +184,13 @@ function isPrime(num) {
     }
   return num > 1;
 }
+ */
+// #22: Rotate an array to the left 1 position
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+rotateLeft(arr);
+function rotateLeft(arr) {
+  const arrFirstElement = arr.shift();
+  arr.push(arrFirstElement);
+}
+console.log(arr);

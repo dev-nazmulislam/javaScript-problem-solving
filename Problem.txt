@@ -19,13 +19,13 @@
 #19: Print in Console the first 100 prime numbers
 #20: Check Odd or Even Number with Arguments Objects
 #21: Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt"
+#22: Rotate an array to the left 1 position
 
 
 
 
 
 
-#21: Rotate an array to the left 1 position
 #22: Rotate an array to the right 1 position
 #23: Reverse an array
 #24: Reverse a string

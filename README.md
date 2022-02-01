@@ -288,3 +288,18 @@ function isPrime(num) {
 }
 
 ```
+
+**#22: Rotate an array to the left 1 position**
+
+```
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+rotateLeft(arr);
+function rotateLeft(arr) {
+  const arrFirstElement = arr.shift();
+  arr.push(arrFirstElement);
+}
+console.log(arr);
+
+```
