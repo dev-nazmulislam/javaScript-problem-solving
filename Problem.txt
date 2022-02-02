@@ -33,7 +33,7 @@
 #33: Write a function that converts hours into seconds.
 #34: Create a function that takes an array containing only numbers and return the first element.
 #35: Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
-
+#36: Write a function that takes the base and height of a triangle and return its area.
 
 
 #24: Reverse a string

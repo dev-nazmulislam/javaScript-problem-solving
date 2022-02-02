@@ -301,3 +301,5 @@ const getFirstValueOfArray = (arr) => arr[0];
 const nextEdge = (side1, side2) => side1 + side2 - 1;
 
 */
+// #36: Write a function that takes the base and height of a triangle and return its area.
+const triangleArea = (base, height) => (base * height) / 2;
