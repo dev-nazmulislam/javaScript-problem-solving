@@ -233,7 +233,6 @@ const str = "Md Nazmul islam";
 const newStr = str.split("").reverse().join("");
 console.log(newStr);
 
-
 // #27: Create a function that takes an array and returns the types of values (data types) in a new array.
 
 const arrayValuesTypes = (arr) => {
@@ -249,7 +248,6 @@ console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
 
 const arrayValuesTypes = (arr) => arr.map((x) => typeof x);
 console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
-
 
 // #28: Create a function that will return in an array. becarefull function parameter and array length is same in count.
 function getArray(number) {
@@ -270,8 +268,22 @@ console.log(getArray(5));
 const calcAge = (age) => (age < 0 || typeof age != "number" ? null : age * 365);
 console.log(calcAge(5));
 
-*/
-
 // #30: Create a function that takes voltage and current and returns the calculated power.
 const circuitPower = (voltage, current) => voltage * current;
 console.log(circuitPower(115, 5));
+
+// #31: Given two numbers, return true if the sum of both numbers is less than 50. Otherwise return false.
+function lessThan50(a, b) {
+  if (a + b < 50) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(lessThan50(40, 30));
+
+// Or ShortCut
+const lessThan50 = (a, b) => a + b < 50;
+console.log(lessThan50(30.15));
+
+*/

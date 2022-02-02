@@ -428,3 +428,28 @@ const circuitPower = (voltage, current) => voltage * current;
 console.log(circuitPower(115, 5));
 
 ```
+
+**#31: Given two numbers, return true if the sum of both numbers is less than 50. Otherwise return false.**
+
+```
+
+function lessThan50(a, b) {
+  if (a + b < 50) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(lessThan50(40, 30));
+
+```
+
+**// Or ShortCut**
+
+```
+
+const lessThan50 = (a, b) => a + b < 50;
+console.log(lessThan50(30.15));
+
+``
+```

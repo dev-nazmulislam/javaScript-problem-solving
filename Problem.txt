@@ -28,6 +28,7 @@
 #28: Create a function that will return in an array. becarefull function parameter and array length is same in count.
 #29: Create a function that takes the age in years and returns the age in days.
 #30: Create a function that takes voltage and current and returns the calculated power.
+#31: Given two numbers, return true if the sum of both numbers is less than 50. Otherwise return false.
 
 
 
