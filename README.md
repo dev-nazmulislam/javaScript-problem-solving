@@ -523,3 +523,14 @@ function addition(a, b) {
 }
 
 ```
+
+**#40: Create a function that will merge two arrays and return the result as a new array**
+
+```
+
+const mergeArrays = (arr1, arr2) => {
+  return [...arr1, ...arr2];
+};
+console.log(mergeArrays([5, 3, 6], [8, 7]));
+
+```

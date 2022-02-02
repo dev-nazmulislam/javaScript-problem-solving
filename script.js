@@ -309,8 +309,6 @@ const incrementsNumber = (n) => ++n;
 // #38: Create a function that takes a base number and an exponent number and returns the calculation.
 const calculateExponent = (num, exp) => Math.pow(num, exp);
 
-*/
-
 // #39: Create a function that takes two numbers as arguments and return their sum.
 function addition(a, b) {
   if (typeof a !== "number" || typeof b !== "number") {
@@ -318,3 +316,11 @@ function addition(a, b) {
   }
   return a + b;
 }
+
+*/
+
+// #40: Create a function that will merge two arrays and return the result as a new array
+const mergeArrays = (arr1, arr2) => {
+  return [...arr1, ...arr2];
+};
+console.log(mergeArrays([5, 3, 6], [8, 7]));
