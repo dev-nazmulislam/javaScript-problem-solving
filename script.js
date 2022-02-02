@@ -294,7 +294,10 @@ console.log(minuteToSecond(2));
 const hoursToSeconds = (hours) => hours * 60 * 60;
 console.log(hoursToSeconds(2));
 
-*/
-
 // #34: Create a function that takes an array containing only numbers and return the first element.
 const getFirstValueOfArray = (arr) => arr[0];
+
+// #35: Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+const nextEdge = (side1, side2) => side1 + side2 - 1;
+
+*/
