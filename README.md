@@ -534,3 +534,24 @@ const mergeArrays = (arr1, arr2) => {
 console.log(mergeArrays([5, 3, 6], [8, 7]));
 
 ```
+
+**// Or**
+
+```
+
+function mergeArrays(arr1, arr2) {
+  var arr = [];
+
+  for (let element of arr1) {
+    arr.push(element);
+  }
+
+  for (let element of arr2) {
+    arr.push(element);
+  }
+
+  return arr;
+}
+console.log(mergeArrays([5, 3, 6], [8, 7]));
+
+```
