@@ -419,3 +419,12 @@ const calcAge = (age) => (age < 0 || typeof age != "number" ? null : age * 365);
 console.log(calcAge(5));
 
 ```
+
+**#30: Create a function that takes voltage and current and returns the calculated power.**
+
+```
+
+const circuitPower = (voltage, current) => voltage * current;
+console.log(circuitPower(115, 5));
+
+```

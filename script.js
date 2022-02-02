@@ -266,8 +266,12 @@ console.log(getArray(5));
 const getArray = (n) => Array(...Array(n)).map((v, i) => i + 1);
 console.log(getArray(5));
 
-*/
-
 // #29: Create a function that takes the age in years and returns the age in days.
 const calcAge = (age) => (age < 0 || typeof age != "number" ? null : age * 365);
 console.log(calcAge(5));
+
+*/
+
+// #30: Create a function that takes voltage and current and returns the calculated power.
+const circuitPower = (voltage, current) => voltage * current;
+console.log(circuitPower(115, 5));
