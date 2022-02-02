@@ -453,11 +453,20 @@ console.log(lessThan50(30.15));
 
 ```
 
-**#32: Write a function that takes an integer minutes and converts it to seconds.**
+**#32: Write a function that takes minutes and converts it to seconds.**
 
 ```
 
 const minuteToSecond = (minutes) => minutes * 60;
 console.log(minuteToSecond(2));
+
+```
+
+**#33: Write a function that converts hours into seconds.**
+
+```
+
+const hoursToSeconds = (hours) => hours * 60 * 60;
+console.log(hoursToSeconds(2));
 
 ```
