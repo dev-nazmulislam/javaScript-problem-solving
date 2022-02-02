@@ -34,7 +34,7 @@
 #34: Create a function that takes an array containing only numbers and return the first element.
 #35: Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
 #36: Write a function that takes the base and height of a triangle and return its area.
-
+#37: Create a function that takes a number as an argument, increments the number by +1 and returns the result.
 
 #24: Reverse a string
 #25: Create a function that will merge two arrays and return the result as a new array

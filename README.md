@@ -494,3 +494,11 @@ const nextEdge = (side1, side2) => side1 + side2 - 1;
 const triangleArea = (base, height) => (base * height) / 2;
 
 ```
+
+**#37: Create a function that takes a number as an argument, increments the number by +1 and returns the result.**
+
+```
+
+const incrementsNumber = (n) => ++n;
+
+```
