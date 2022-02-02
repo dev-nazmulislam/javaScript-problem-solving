@@ -470,3 +470,11 @@ const hoursToSeconds = (hours) => hours * 60 * 60;
 console.log(hoursToSeconds(2));
 
 ```
+
+**#34: Create a function that takes an array containing only numbers and return the first element.**
+
+```
+
+const getFirstValueOfArray = (arr) => arr[0];
+
+```

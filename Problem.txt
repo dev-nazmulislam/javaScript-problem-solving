@@ -31,6 +31,7 @@
 #31: Given two numbers, return true if the sum of both numbers is less than 50. Otherwise return false.
 #32: Write a function that takes minutes and converts it to seconds.
 #33: Write a function that converts hours into seconds.
+#34: Create a function that takes an array containing only numbers and return the first element.
 
 
 
