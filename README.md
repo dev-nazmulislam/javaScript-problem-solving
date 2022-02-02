@@ -386,3 +386,27 @@ const arrayValuesTypes = (arr) => arr.map((x) => typeof x);
 console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
 
 ```
+
+**#28: Create a function that will return in an array. becarefull function parameter and array length is same in count.**
+
+```
+
+function getArray(number) {
+  var newArray = [];
+  for (var i = 1; i <= number; i++) {
+    newArray.push(i);
+  }
+  return newArray;
+}
+console.log(getArray(5));
+
+```
+
+**// Or ShortCut**
+
+```
+
+const getArray = (n) => Array(...Array(n)).map((v, i) => i + 1);
+console.log(getArray(5));
+
+```
