@@ -317,8 +317,6 @@ function addition(a, b) {
   return a + b;
 }
 
-*/
-
 // #40: Create a function that will merge two arrays and return the result as a new array
 const mergeArrays = (arr1, arr2) => {
   return [...arr1, ...arr2];
@@ -326,6 +324,24 @@ const mergeArrays = (arr1, arr2) => {
 console.log(mergeArrays([5, 3, 6], [8, 7]));
 
 // Or
+function mergeArrays(arr1, arr2) {
+  var arr = [];
+
+  for (let element of arr1) {
+    arr.push(element);
+  }
+
+  for (let element of arr2) {
+    arr.push(element);
+  }
+
+  return arr;
+}
+console.log(mergeArrays([5, 3, 6], [8, 7]));
+
+*/
+
+// #41: Create a function that will receive two arrays of numbers as arguments and return an array composed of all the numbers that are either in the first array or second array but not in both
 function mergeArrays(arr1, arr2) {
   var arr = [];
 
