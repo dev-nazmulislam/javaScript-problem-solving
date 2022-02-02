@@ -502,3 +502,11 @@ const triangleArea = (base, height) => (base * height) / 2;
 const incrementsNumber = (n) => ++n;
 
 ```
+
+**#38: Create a function that takes a base number and an exponent number and returns the calculation.**
+
+```
+
+const calculateExponent = (num, exp) => Math.pow(num, exp);
+
+```
