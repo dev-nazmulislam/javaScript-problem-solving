@@ -24,6 +24,7 @@
 #24: Reverse an array with JavaScript Builtin Method
 #25: Reverse a string with createed function, don`t Change orginal string
 #26: Reverse a string with JavaScript Builtin Method
+#27: Create a function that takes an array and returns the types of values (data types) in a new array.
 
 
 

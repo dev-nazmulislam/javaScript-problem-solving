@@ -362,3 +362,27 @@ const newStr = str.split("").reverse().join("");
 console.log(newStr);
 
 ```
+
+**// #27: Create a function that takes an array and returns the types of values (data types) in a new array.**
+
+```
+
+const arrayValuesTypes = (arr) => {
+  const newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(typeof arr[i]);
+  }
+  return newArr;
+};
+console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
+
+```
+
+**// Or ShortCut**
+
+```
+
+const arrayValuesTypes = (arr) => arr.map((x) => typeof x);
+console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
+
+```

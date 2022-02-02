@@ -194,7 +194,6 @@ function rotateLeft(arr) {
   arr.push(arrFirstElement);
 }
 console.log(arr);
- 
 
 // #23: Reverse an array with createed function, don`t Change orginal array
 const arr = [1, 2, 3];
@@ -210,13 +209,10 @@ function reverseArr(arr) {
   return newArr;
 }
 
-
 // #24: Reverse an array with JavaScript Builtin Method
 const arr = [1, 2, 3];
 arr.reverse();
 console.log(arr);
-
-*/
 
 // #25: Reverse a string with createed function, don`t Change orginal string
 const str = "Md Nazmul Islam";
@@ -236,3 +232,21 @@ function reverseString(str) {
 const str = "Md Nazmul islam";
 const newStr = str.split("").reverse().join("");
 console.log(newStr);
+
+*/
+
+// #27: Create a function that takes an array and returns the types of values (data types) in a new array.
+
+const arrayValuesTypes = (arr) => {
+  const newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(typeof arr[i]);
+  }
+  return newArr;
+};
+console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
+
+// Or ShortCut
+
+const arrayValuesTypes = (arr) => arr.map((x) => typeof x);
+console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
