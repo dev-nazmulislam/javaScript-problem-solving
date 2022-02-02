@@ -300,7 +300,6 @@ const getFirstValueOfArray = (arr) => arr[0];
 // #35: Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
 const nextEdge = (side1, side2) => side1 + side2 - 1;
 
-*/
 // #36: Write a function that takes the base and height of a triangle and return its area.
 const triangleArea = (base, height) => (base * height) / 2;
 
@@ -309,3 +308,13 @@ const incrementsNumber = (n) => ++n;
 
 // #38: Create a function that takes a base number and an exponent number and returns the calculation.
 const calculateExponent = (num, exp) => Math.pow(num, exp);
+
+*/
+
+// #39: Create a function that takes two numbers as arguments and return their sum.
+function addition(a, b) {
+  if (typeof a !== "number" || typeof b !== "number") {
+    return "Sorry you didn't pass two numbers.";
+  }
+  return a + b;
+}

@@ -36,6 +36,7 @@
 #36: Write a function that takes the base and height of a triangle and return its area.
 #37: Create a function that takes a number as an argument, increments the number by +1 and returns the result.
 #38: Create a function that takes a base number and an exponent number and returns the calculation.
+#39: Create a function that takes two numbers as arguments and return their sum.
 
 
 

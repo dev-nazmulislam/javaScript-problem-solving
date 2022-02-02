@@ -510,3 +510,16 @@ const incrementsNumber = (n) => ++n;
 const calculateExponent = (num, exp) => Math.pow(num, exp);
 
 ```
+
+**#39: Create a function that takes two numbers as arguments and return their sum.**
+
+```
+
+function addition(a, b) {
+  if (typeof a !== "number" || typeof b !== "number") {
+    return "Sorry you didn't pass two numbers.";
+  }
+  return a + b;
+}
+
+```
