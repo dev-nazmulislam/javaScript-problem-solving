@@ -26,6 +26,7 @@
 #26: Reverse a string with JavaScript Builtin Method
 #27: Create a function that takes an array and returns the types of values (data types) in a new array.
 #28: Create a function that will return in an array. becarefull function parameter and array length is same in count.
+#29: Create a function that takes the age in years and returns the age in days.
 
 
 

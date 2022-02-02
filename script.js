@@ -250,7 +250,6 @@ console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
 const arrayValuesTypes = (arr) => arr.map((x) => typeof x);
 console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
 
-*/
 
 // #28: Create a function that will return in an array. becarefull function parameter and array length is same in count.
 function getArray(number) {
@@ -266,3 +265,9 @@ console.log(getArray(5));
 
 const getArray = (n) => Array(...Array(n)).map((v, i) => i + 1);
 console.log(getArray(5));
+
+*/
+
+// #29: Create a function that takes the age in years and returns the age in days.
+const calcAge = (age) => (age < 0 || typeof age != "number" ? null : age * 365);
+console.log(calcAge(5));
