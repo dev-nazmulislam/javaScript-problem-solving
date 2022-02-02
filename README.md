@@ -1,8 +1,8 @@
 # JavaScript Problem Solving
 
-1. [Print in Console numbers from 1 to 10](#1:-print-in-console-from-1-to-10-numbers?)
-2. [Print in Console the odd numbers less than 100](#2:-print-in-console-the-odd-numbers-less-than-100?)
-3. [Print in Console the multiplication table with 7](#3:-Print-in-Console-the-multiplication-table-with-7?)
+1. Print in Console numbers from 1 to 10
+2. Print in Console the odd numbers less than 100
+3. Print in Console the multiplication table with 7
 4. Calculate the sum of numbers from 1 to 10
 5. Calculate 10!
 6. Calculate the sum of odd numbers greater than 10 and less than 30
@@ -41,7 +41,7 @@
 39. Create a function that will merge two arrays and return the result as a new array
 40. Create a function that will receive two arrays of numbers as arguments and return an array composed of all the numbers that are either in the first array or second array but not in both
 
-### 1: Print in Console from 1 to 10 numbers?
+**#1: Print in Console from 1 to 10 numbers?**
 
 ```
 
@@ -51,7 +51,7 @@ for (let i = 1; i <= 10; i++) {
 
 ```
 
-### 2: Print in Console the odd numbers less than 100?
+**#2: Print in Console the odd numbers less than 100?**
 
 ```
 
@@ -61,7 +61,7 @@ for (let i = 1; i <= 100; i += 2) {
 
 ```
 
-### 3: Print in Console the multiplication table with 7?
+**#3: Print in Console the multiplication table with 7?**
 
 ```
 
