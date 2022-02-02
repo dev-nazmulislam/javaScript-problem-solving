@@ -287,3 +287,6 @@ const lessThan50 = (a, b) => a + b < 50;
 console.log(lessThan50(30.15));
 
 */
+// #32: Write a function that takes an integer minutes and converts it to seconds.
+const minuteToSecond = (minutes) => minutes * 60;
+console.log(minuteToSecond(2));

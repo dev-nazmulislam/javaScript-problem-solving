@@ -363,7 +363,7 @@ console.log(newStr);
 
 ```
 
-**// #27: Create a function that takes an array and returns the types of values (data types) in a new array.**
+**#27: Create a function that takes an array and returns the types of values (data types) in a new array.**
 
 ```
 
@@ -378,7 +378,7 @@ console.log(arrayValuesTypes([1, 2, "Nazmul", [], true]));
 
 ```
 
-**// Or ShortCut**
+**Or ShortCut**
 
 ```
 
@@ -402,7 +402,7 @@ console.log(getArray(5));
 
 ```
 
-**// Or ShortCut**
+**Or ShortCut**
 
 ```
 
@@ -411,7 +411,7 @@ console.log(getArray(5));
 
 ```
 
-**// #29: Create a function that takes the age in years and returns the age in days.**
+**#29: Create a function that takes the age in years and returns the age in days.**
 
 ```
 
@@ -444,12 +444,20 @@ console.log(lessThan50(40, 30));
 
 ```
 
-**// Or ShortCut**
+**Or ShortCut**
 
 ```
 
 const lessThan50 = (a, b) => a + b < 50;
 console.log(lessThan50(30.15));
 
-``
+```
+
+**#32: Write a function that takes an integer minutes and converts it to seconds.**
+
+```
+
+const minuteToSecond = (minutes) => minutes * 60;
+console.log(minuteToSecond(2));
+
 ```
